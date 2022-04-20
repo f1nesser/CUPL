@@ -3,7 +3,7 @@ import AddLifts from './AddLifts'
 import DeleteLifts from './DeleteLifts'
 import { useState } from 'react'
 
-function Navbar({ showAddLifts, handleClick }) {
+function Navbar({ handleClick }) {
     return (
         <div className={styles.navBar}>
             <div className={styles.navItem}>
