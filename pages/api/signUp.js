@@ -25,7 +25,7 @@ export default async function handler(req, res) {
             first_name: user.firstName,
             last_name: user.lastName,
             gender: user.sex,
-            role: 'admin',
+            role: 'user',
             club_role: user.clubRole,
             home_town: user.homeTown,
             major: user.major,
