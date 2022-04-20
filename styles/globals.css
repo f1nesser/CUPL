@@ -1,0 +1,27 @@
+:root {
+    --CU_Gold: #cfb87c;
+    --CU_Dark_Gray: #565a5c;
+    --CU_Light_Gray: #a2a4a3;
+}
+
+html,
+body {
+    /* background-color: rgb(197, 183, 131); */
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 0px;
+}

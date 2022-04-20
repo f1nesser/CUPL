@@ -1,0 +1,234 @@
+[
+  {
+    "first_name": "Nick",
+    "last_name": "Larson",
+    "bench": 345.0,
+    "squat": 584.3,
+    "deadlift": 672.5,
+    "body_weight": 89.8
+  },
+  {
+    "first_name": "Paris",
+    "last_name": "Dong",
+    "bench": 370.0,
+    "squat": 470.0,
+    "deadlift": 645.0,
+    "body_weight": 79.4
+  },
+  {
+    "first_name": "Pascal",
+    "last_name": "Porche",
+    "bench": 315.0,
+    "squat": 515.0,
+    "deadlift": 605.0,
+    "body_weight": 78.0
+  },
+  {
+    "first_name": "Troy",
+    "last_name": "Husted",
+    "bench": 601.0,
+    "squat": 468.0,
+    "deadlift": 325.0,
+    "body_weight": 86.2
+  },
+  {
+    "first_name": "Callaway",
+    "last_name": "Spahr",
+    "bench": 305.0,
+    "squat": 450.0,
+    "deadlift": 550.0,
+    "body_weight": 107.0
+  },
+  {
+    "first_name": "Owen",
+    "last_name": "Rung",
+    "bench": 336.0,
+    "squat": 446.0,
+    "deadlift": 512.0,
+    "body_weight": 89.8
+  },
+  {
+    "first_name": "Wesley",
+    "last_name": "Brand",
+    "bench": 285.0,
+    "squat": 500.0,
+    "deadlift": 500.0,
+    "body_weight": 91.6
+  },
+  {
+    "first_name": "Chase",
+    "last_name": "Erskine",
+    "bench": 305.0,
+    "squat": 470.0,
+    "deadlift": 500.0,
+    "body_weight": 78.5
+  },
+  {
+    "first_name": "Caleb",
+    "last_name": "Morford",
+    "bench": 292.1,
+    "squat": 463.0,
+    "deadlift": 501.6,
+    "body_weight": 72.6
+  },
+  {
+    "first_name": "Alden",
+    "last_name": "Soto",
+    "bench": 315.0,
+    "squat": 425.0,
+    "deadlift": 510.0,
+    "body_weight": 87.5
+  },
+  {
+    "first_name": "Jack",
+    "last_name": "Bendure",
+    "bench": 315.0,
+    "squat": 415.0,
+    "deadlift": 495.0,
+    "body_weight": 89.0
+  },
+  {
+    "first_name": "Will",
+    "last_name": "Snider",
+    "bench": 275.0,
+    "squat": 405.0,
+    "deadlift": 495.0,
+    "body_weight": 83.0
+  },
+  {
+    "first_name": "Jay",
+    "last_name": "Seabrum",
+    "bench": 320.0,
+    "squat": 385.0,
+    "deadlift": 460.0,
+    "body_weight": 89.8
+  },
+  {
+    "first_name": "Manny",
+    "last_name": "Preston de Miranda",
+    "bench": 255.0,
+    "squat": 405.0,
+    "deadlift": 455.0,
+    "body_weight": 86.2
+  },
+  {
+    "first_name": "Magnus",
+    "last_name": "Lehan",
+    "bench": 253.5,
+    "squat": 363.8,
+    "deadlift": 418.9,
+    "body_weight": 77.1
+  },
+  {
+    "first_name": "Ryan",
+    "last_name": "Sievers",
+    "bench": 220.0,
+    "squat": 360.0,
+    "deadlift": 430.0,
+    "body_weight": 72.6
+  },
+  {
+    "first_name": "Hassan",
+    "last_name": "Shahzad",
+    "bench": 185.0,
+    "squat": 405.0,
+    "deadlift": 397.0,
+    "body_weight": 127.0
+  },
+  {
+    "first_name": "Jack",
+    "last_name": "Bjerke",
+    "bench": 225.0,
+    "squat": 335.0,
+    "deadlift": 375.0,
+    "body_weight": 70.3
+  },
+  {
+    "first_name": "Ethan",
+    "last_name": "Benedict",
+    "bench": 195.0,
+    "squat": 340.0,
+    "deadlift": 395.0,
+    "body_weight": 72.6
+  },
+  {
+    "first_name": "Michael",
+    "last_name": "Driscoll",
+    "bench": 230.0,
+    "squat": 320.0,
+    "deadlift": 375.0,
+    "body_weight": 69.0
+  },
+  {
+    "first_name": "Osbaldo",
+    "last_name": "De La Cruz",
+    "bench": 187.0,
+    "squat": 325.0,
+    "deadlift": 407.0,
+    "body_weight": 86.2
+  },
+  {
+    "first_name": "Nav",
+    "last_name": "Chidambaram",
+    "bench": 205.0,
+    "squat": 275.0,
+    "deadlift": 405.0,
+    "body_weight": 65.8
+  },
+  {
+    "first_name": "Makenzie",
+    "last_name": "Daugherty",
+    "bench": 185.0,
+    "squat": 340.0,
+    "deadlift": 315.0,
+    "body_weight": 69.0
+  },
+  {
+    "first_name": "Grace",
+    "last_name": "McKenna",
+    "bench": 140.0,
+    "squat": 245.0,
+    "deadlift": 315.0,
+    "body_weight": 74.8
+  },
+  {
+    "first_name": "Ryan",
+    "last_name": "Albright",
+    "bench": 135.0,
+    "squat": 185.0,
+    "deadlift": 295.0,
+    "body_weight": 72.6
+  },
+  {
+    "first_name": "Wylie",
+    "last_name": "Romanow",
+    "bench": 145.0,
+    "squat": 175.0,
+    "deadlift": 285.0,
+    "body_weight": 76.0
+  },
+  {
+    "first_name": "Zoe",
+    "last_name": "Peacock",
+    "bench": 105.0,
+    "squat": 185.0,
+    "deadlift": 265.0,
+    "body_weight": 65.0
+  },
+  {
+    "first_name": "Megan",
+    "last_name": "Brady",
+    "bench": 105.0,
+    "squat": 170.0,
+    "deadlift": 205.0,
+    "body_weight": 47.6
+  },
+  {
+    "first_name": "Duncan",
+    "last_name": "Kliphuis",
+    "bench": 5.0,
+    "squat": 5.0,
+    "deadlift": 425.0,
+    "body_weight": 102.0
+  }
+]

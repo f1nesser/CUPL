@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.container {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 'logo' 'quote' 'athletes';
+}
+
+.logo {
+    grid-area: logo;
+    background-color: #565a5c;
+}
+.logoImageContainer {
+    /* object-fit: fill; */
+    position: relative;
+    width: 100vw;
+    height: 88vh;
+}
+.logoImage {
+    display: block;
+    object-fit: contain;
+    aspect-ratio: 648/632;
+}
+.sponsorImageContainer {
+    object-fit: fill;
+    position: relative;
+    width: 100vw;
+    height: 160vh;
+}
+.sponsorImage {
+    /* display: block; */
+    /* object-fit: contain; */
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+.content {
+    grid-area: quote;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute; /* attatches to nearest nearest relative container*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.quote {
+    /* isolation: isolate; */
+    text-align: center;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 110vh);
+    /* padding: 2em; */
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 3rem;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+    z-index: 3;
+}
+.athletesContainer {
+    grid-area: athletes;
+    width: 100%;
+    height: 100em;
+}
+
+.athletes {
+    display: grid;
+    gap: 2em;
+    height: 100%;
+    grid-template-areas:
+        'leftBlank title title rightBlank'
+        'leftBlank card1 card2 rightBlank';
+    grid-template-rows: 1fr 7fr;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+}
+.athleteTitle {
+    grid-area: title;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-top: 0.5em;
+    /* background-color: aqua; */
+    font-size: 7em;
+}
+.card1 {
+    grid-area: card1;
+    width: 100%;
+    height: 100%;
+}
+.card2 {
+    grid-area: card2;
+    width: 100%;
+    height: 100%;
+}
+.blank {
+    grid-area: blank;
+}
+.alignRight {
+    text-align: right;
+}

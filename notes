@@ -1,0 +1,76 @@
+SHAPE DATA GOOD
+
+    - components shouldnt be messing with data. just display item
+    - self describing data
+    - "smart data stupid components"
+                        -Lens
+
+db
+
+-   PG bouncer for db
+-   change Decimal to Float
+-   gender to enum
+
+anytime return jsx make into component
+
+getTopExercise:
+raw sql query
+schema validator (zod yup)
+return everything you need
+simplify api
+
+refactor api to an exported function make new directory
+to called in getServerSideProps
+and in /api if need
+
+Leaderboard:
+
+-   use promises for fetching multiple fetches
+-   processLifts() should be component
+-   everything is a component
+    move tr into Lifts component
+
+classes:{
+male: [
+{"52": range {
+min: 0
+max: 52
+}
+}
+
+]
+}
+
+prisma:
+
+seed properly
+
+use migrations
+
+alias variables
+userId Int? @map("user_id")
+
+NextAuth
+custom pages
+just import the function monkey to an event
+read nextauth clientapi
+
+--
+Points of friction:
+layout:
+grid and flex box
+images
+
+best practices Qs
+handling state. see login.js - pass state from parents
+--
+todo:
+head coach card
+same size card in sponsor page
+editlifts navbar
+
+link to programs
+https://drive.google.com/drive/folders/0B3GO2VSaOzu7M0pILTd1T01ibUU?resourcekey=0-oqWLwXNLTaiQYgbUzPDbRg&usp=sharing
+
+bylaws
+https://drive.google.com/file/d/1sjvq1ZK35Yb1KYT78l20HEjCpON053ao/view?usp=sharing

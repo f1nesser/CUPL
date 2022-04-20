@@ -1,0 +1,67 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model lift {
+  lift_id           Int           @id @default(autoincrement())
+  user_id           Int?
+  lift_date         DateTime      @db.Date
+  type_of_lift      lift_type
+  lift_weight       Decimal       @db.Decimal
+  body_weight       Decimal       @db.Decimal
+  weight_class_name String?       @db.VarChar
+  gender            gender_type?
+  member            member?       @relation(fields: [user_id], references: [user_id], onDelete: NoAction, onUpdate: NoAction)
+  weight_class      weight_class? @relation(fields: [weight_class_name, gender], references: [weight_class_name, gender], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model member {
+  user_id    Int             @id @default(autoincrement())
+  user_name  String          @unique @db.VarChar
+  first_name String          @db.VarChar
+  last_name  String          @db.VarChar
+  gender     gender_type
+  role       user_type
+  password   String          @db.VarChar
+  club_role  club_role_type?
+  home_town  String?         @db.VarChar
+  major      String?         @db.VarChar
+  year       String?         @db.VarChar
+  lift       lift[]
+}
+
+model weight_class {
+  weight_class_name String      @db.VarChar
+  gender            gender_type
+  min               Decimal     @db.Decimal
+  max               Decimal     @db.Decimal
+  lift              lift[]
+
+  @@id([weight_class_name, gender])
+}
+
+enum gender_type {
+  male
+  female
+}
+
+enum lift_type {
+  bench
+  squat
+  deadlift
+}
+
+enum user_type {
+  admin
+  user
+}
+
+enum club_role_type {
+  active
+  inactive
+}

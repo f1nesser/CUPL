@@ -1,0 +1,18 @@
+.grandContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.table {
+    padding: 1rem;
+    /* width: 50%; */
+    /* position: relative; */
+}
+
+.editLiftContainer {
+    display: flex;
+    background-color: black;
+    /* flex-direction: column; */
+    min-height: 100vh;
+    width: 100vw;
+}

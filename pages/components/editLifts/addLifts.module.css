@@ -1,0 +1,15 @@
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 7px;
+}

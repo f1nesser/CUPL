@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.table {
+    border: 1px solid;
+    text-align: left;
+    table-layout: fixed;
+    /* width: 100%; */
+}
+
+.cell {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    font-family: 'Josefin Sans', sans-serif;
+}

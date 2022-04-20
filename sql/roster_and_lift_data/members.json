@@ -1,0 +1,533 @@
+[
+    {
+        "user_id": 1,
+        "user_name": "NickLarson",
+        "first_name": "Nick",
+        "last_name": "Larson",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 2,
+        "user_name": "ParisDong",
+        "first_name": "Paris",
+        "last_name": "Dong",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 3,
+        "user_name": "PascalPorche",
+        "first_name": "Pascal",
+        "last_name": "Porche",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 4,
+        "user_name": "TroyHusted",
+        "first_name": "Troy",
+        "last_name": "Husted",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 5,
+        "user_name": "CallawaySpahr",
+        "first_name": "Callaway",
+        "last_name": "Spahr",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 6,
+        "user_name": "OwenRung",
+        "first_name": "Owen",
+        "last_name": "Rung",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 7,
+        "user_name": "WesleyBrand",
+        "first_name": "Wesley",
+        "last_name": "Brand",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 8,
+        "user_name": "ChaseErskine",
+        "first_name": "Chase",
+        "last_name": "Erskine",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 9,
+        "user_name": "CalebMorford",
+        "first_name": "Caleb",
+        "last_name": "Morford",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 10,
+        "user_name": "AldenSoto",
+        "first_name": "Alden",
+        "last_name": "Soto",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 11,
+        "user_name": "JackBendure",
+        "first_name": "Jack",
+        "last_name": "Bendure",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 12,
+        "user_name": "WillSnider",
+        "first_name": "Will",
+        "last_name": "Snider",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 13,
+        "user_name": "JaySeabrum",
+        "first_name": "Jay",
+        "last_name": "Seabrum",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 14,
+        "user_name": "MannyPreston de Miranda",
+        "first_name": "Manny",
+        "last_name": "Preston de Miranda",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 15,
+        "user_name": "MagnusLehan",
+        "first_name": "Magnus",
+        "last_name": "Lehan",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 16,
+        "user_name": "RyanSievers",
+        "first_name": "Ryan",
+        "last_name": "Sievers",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 17,
+        "user_name": "HassanShahzad",
+        "first_name": "Hassan",
+        "last_name": "Shahzad",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 18,
+        "user_name": "JackBjerke",
+        "first_name": "Jack",
+        "last_name": "Bjerke",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 19,
+        "user_name": "EthanBenedict",
+        "first_name": "Ethan",
+        "last_name": "Benedict",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 20,
+        "user_name": "MichaelDriscoll",
+        "first_name": "Michael",
+        "last_name": "Driscoll",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 21,
+        "user_name": "OsbaldoDe La Cruz",
+        "first_name": "Osbaldo",
+        "last_name": "De La Cruz",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 22,
+        "user_name": "NavChidambaram",
+        "first_name": "Nav",
+        "last_name": "Chidambaram",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 23,
+        "user_name": "MakenzieDaugherty",
+        "first_name": "Makenzie",
+        "last_name": "Daugherty",
+        "gender": "female",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 24,
+        "user_name": "GraceMcKenna",
+        "first_name": "Grace",
+        "last_name": "McKenna",
+        "gender": "female",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 25,
+        "user_name": "AlexDoner",
+        "first_name": "Alex",
+        "last_name": "Doner",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 26,
+        "user_name": "RyanAlbright",
+        "first_name": "Ryan",
+        "last_name": "Albright",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 27,
+        "user_name": "WylieRomanow",
+        "first_name": "Wylie",
+        "last_name": "Romanow",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 28,
+        "user_name": "ZoePeacock",
+        "first_name": "Zoe",
+        "last_name": "Peacock",
+        "gender": "female",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 29,
+        "user_name": "MeganBrady",
+        "first_name": "Megan",
+        "last_name": "Brady",
+        "gender": "female",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 30,
+        "user_name": "DuncanKliphuis",
+        "first_name": "Duncan",
+        "last_name": "Kliphuis",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 31,
+        "user_name": "RichardTran",
+        "first_name": "Richard",
+        "last_name": "Tran",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 32,
+        "user_name": "LoganAnchick",
+        "first_name": "Logan",
+        "last_name": "Anchick",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 33,
+        "user_name": "EliBaumgarten",
+        "first_name": "Eli",
+        "last_name": "Baumgarten",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 34,
+        "user_name": "BenBixler",
+        "first_name": "Ben",
+        "last_name": "Bixler",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 35,
+        "user_name": "HarryCroley",
+        "first_name": "Harry",
+        "last_name": "Croley",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 36,
+        "user_name": "CameronDavis",
+        "first_name": "Cameron",
+        "last_name": "Davis",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 37,
+        "user_name": "TristanDoan",
+        "first_name": "Tristan",
+        "last_name": "Doan",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 38,
+        "user_name": "WestonHirschauer",
+        "first_name": "Weston",
+        "last_name": "Hirschauer",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 39,
+        "user_name": "AlexHuynh",
+        "first_name": "Alex",
+        "last_name": "Huynh",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 40,
+        "user_name": "AlexJackson",
+        "first_name": "Alex",
+        "last_name": "Jackson",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 41,
+        "user_name": "LizJanko",
+        "first_name": "Liz",
+        "last_name": "Janko",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 42,
+        "user_name": "AustinKatzer",
+        "first_name": "Austin",
+        "last_name": "Katzer",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 43,
+        "user_name": "Ann DeeKindrick",
+        "first_name": "Ann Dee",
+        "last_name": "Kindrick",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 44,
+        "user_name": "AbhimanyuKumar",
+        "first_name": "Abhimanyu",
+        "last_name": "Kumar",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 45,
+        "user_name": "ShoukenL",
+        "first_name": "Shouken",
+        "last_name": "L",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 46,
+        "user_name": "Victoria (Toria)Lindenmuth",
+        "first_name": "Victoria (Toria)",
+        "last_name": "Lindenmuth",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 47,
+        "user_name": "ViktoriaMeyerhoff",
+        "first_name": "Viktoria",
+        "last_name": "Meyerhoff",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 48,
+        "user_name": "MalcolmMurray",
+        "first_name": "Malcolm",
+        "last_name": "Murray",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 49,
+        "user_name": "NickNeely",
+        "first_name": "Nick",
+        "last_name": "Neely",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 50,
+        "user_name": "GrantNorman",
+        "first_name": "Grant",
+        "last_name": "Norman",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 51,
+        "user_name": "RohanPathak",
+        "first_name": "Rohan",
+        "last_name": "Pathak",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 52,
+        "user_name": "NylaPrassad",
+        "first_name": "Nyla",
+        "last_name": "Prassad",
+        "gender": "female",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 53,
+        "user_name": "TylerRadke",
+        "first_name": "Tyler",
+        "last_name": "Radke",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 54,
+        "user_name": "SeanSpindler",
+        "first_name": "Sean",
+        "last_name": "Spindler",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 55,
+        "user_name": "ColsonSurran",
+        "first_name": "Colson",
+        "last_name": "Surran",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 56,
+        "user_name": "JacobWehmeyer",
+        "first_name": "Jacob",
+        "last_name": "Wehmeyer",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 57,
+        "user_name": "MaeYustin",
+        "first_name": "Mae",
+        "last_name": "Yustin",
+        "gender": "female",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 58,
+        "user_name": "PaulZhang",
+        "first_name": "Paul",
+        "last_name": "Zhang",
+        "gender": "male",
+        "role": "user",
+        "password": "123"
+    },
+    {
+        "user_id": 59,
+        "user_name": "finesser",
+        "first_name": "riley",
+        "last_name": "iwanaga",
+        "gender": "male",
+        "role": "admin",
+        "password": "finesser"
+    }
+]

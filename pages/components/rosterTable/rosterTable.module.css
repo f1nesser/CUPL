@@ -1,0 +1,17 @@
+.table {
+    /* border: 1px solid; */
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+}
+.tableHeader {
+    padding: 0.3rem;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.cell {
+    padding: 0.3rem;
+    /* border-bottom: 1px solid black; */
+    font-family: 'Josefin Sans', sans-serif;
+}

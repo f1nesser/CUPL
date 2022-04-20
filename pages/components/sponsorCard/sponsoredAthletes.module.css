@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 2px solid #cfb87c;
+    border-radius: 6px;
+    align-items: center;
+    background-color: black;
+    height: 47em;
+}
+
+.imageContainer {
+    /* display: flex; */
+    object-fit: contain;
+    /* object-position: 10% 50; */
+    width: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+}
+
+.image {
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    /* position: relative; */
+    /* padding-top: 5px; */
+    color: white;
+    text-align: center;
+    margin: 1rem;
+}
+
+.contact {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    /* text-align: justify; */
+}
+
+.bio {
+    text-align: left;
+    text-indent: 2rem;
+}
