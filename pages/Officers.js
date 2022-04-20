@@ -1,5 +1,5 @@
-import NavBar from './components/navbar/NavBar'
-import Card from './components/card/Card'
+import NavBar from '../components/navbar/NavBar'
+import Card from '../components/card/Card'
 import styles from './officers.module.css'
 import officers from '../assets/officers'
 import { useSession } from 'next-auth/react'

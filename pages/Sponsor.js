@@ -1,8 +1,8 @@
-import NavBar from './components/navbar/NavBar'
+import NavBar from '../components/navbar/NavBar'
 import Image from 'next/image'
 import styles from './sponsor.module.css'
 import sponsoredAthletes from '../assets/sponsoredAthletes'
-import SponosoredCard from './components/sponsorCard/SponsoredCard'
+import SponosoredCard from '../components/sponsorCard/SponsoredCard'
 import { useSession } from 'next-auth/react'
 export default function Sponsor() {
     const { data: session } = useSession()
@@ -57,7 +57,7 @@ export default function Sponsor() {
                         <div className={styles.card2}>
                             <SponosoredCard
                                 person={sponsoredAthletes.athlete2}
-                                crop="0px -125px"
+                                crop="0px -100px"
                             />
                         </div>
                     </div>

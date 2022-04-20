@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import NavBar from './components/navbar/NavBar'
+import NavBar from '../components/navbar/NavBar'
 import homeBackground from '../public/newHome.jpg'
 import aboutUs from '../public/aboutUs.jpg'
 import aboutUsText from '../assets/aboutUsText'

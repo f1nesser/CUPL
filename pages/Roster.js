@@ -1,8 +1,8 @@
 import getRosterdata from '../roster/getRosterData'
-import NavBar from './components/navbar/NavBar'
+import NavBar from '../components/navbar/NavBar'
 import styles from './roster.module.css'
 import Image from 'next/image'
-import RosterTable from './components/rosterTable/RosterTable'
+import RosterTable from '../components/rosterTable/RosterTable'
 import { useSession } from 'next-auth/react'
 
 export async function getServerSideProps() {

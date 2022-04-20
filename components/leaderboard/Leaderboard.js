@@ -1,5 +1,5 @@
 import styles from './Leaderboard.module.css'
-import weightClasses from '../../../assets/weightClasses'
+import weightClasses from '../../assets/weightClasses'
 
 function Lifts({ lifts, typeOfLift }) {
     let liftsItems = lifts.map((weightClass) => {

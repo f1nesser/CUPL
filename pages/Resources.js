@@ -1,5 +1,5 @@
 import styles from './resources.module.css'
-import NavBar from './components/navbar/NavBar'
+import NavBar from '../components/navbar/NavBar'
 import { useSession } from 'next-auth/react'
 import Image from 'next/image'
 import cuplLogo from '../public/cuplLogo.jpg'

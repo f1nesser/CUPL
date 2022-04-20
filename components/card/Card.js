@@ -6,7 +6,7 @@ export default function Card({ person, crop = 'center' }) {
         <div className={styles.container}>
             <div className={styles.imageContainer}>
                 <Image
-                    src={person['imagePath']}
+                    src={person.imagePath}
                     alt={person.name.first}
                     layout="fill"
                     objectFit="cover"

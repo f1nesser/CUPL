@@ -1,9 +1,9 @@
-import NavBar from './components/navbar/NavBar'
+import NavBar from '../components/navbar/NavBar'
 import styles from './leaderboards.module.css'
-import Leaderboard from './components/leaderboard/Leaderboard'
+import Leaderboard from '../components/leaderboard/Leaderboard'
 import weightClasses from '../assets/weightClasses'
 import getTopExercise from '../exercises/getTopExercises'
-import EditLifts from './components/editLifts/EditLifts'
+import EditLifts from '../components/editLifts/EditLifts'
 import { useSession } from 'next-auth/react'
 export async function getServerSideProps() {
     const lifts = await getTopExercise()

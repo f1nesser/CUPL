@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import NavBar from './components/navbar/NavBar'
+import NavBar from '../components/navbar/NavBar'
 import styles from './login.module.css'
 import bgImage from '../public/newHome.jpg'
 import { useState } from 'react'
