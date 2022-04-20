@@ -168,10 +168,10 @@ function SignUpForm() {
                 })}
                 <label>What year are you?</label>
                 <select name="year" id="year">
-                    <option value="freshman">Freshman</option>
-                    <option value="sophmore">Sophmore</option>
-                    <option value="junior">Junior</option>
-                    <option value="senior">Senior</option>
+                    <option value="Freshman">Freshman</option>
+                    <option value="Sophmore">Sophmore</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
                 </select>
 
                 <label htmlFor="gender">What&apos;s your sex?</label>

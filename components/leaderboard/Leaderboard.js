@@ -23,11 +23,9 @@ function Lifts({ lifts, typeOfLift }) {
 export default function Leaderboard({ gender, lifts }) {
     // turn into component
     const weightClassItems = weightClasses[gender].map((weightClass) => {
-        if (weightClass === 141) weightClass = '140+'
-        if (weightClass === 101) weightClass = '100+'
         return (
             <th scope="col" className={styles.cell} key={weightClass.name}>
-                {weightClass.name}
+                {weightClass.name}kg
             </th>
         )
     })
