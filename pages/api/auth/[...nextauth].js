@@ -1,6 +1,6 @@
 import NextAuth from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
-import { prisma } from '../../../lib/prisma.ts'
+import prisma from '../../../lib/prisma'
 const bcrypt = require('bcrypt')
 // NEXTAUTH_URL = 'http://localhost:3000/Login'
 

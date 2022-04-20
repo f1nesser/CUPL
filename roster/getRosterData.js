@@ -1,4 +1,4 @@
-import { prisma } from '../lib/prisma.ts'
+import prisma from '../lib/prisma'
 
 export default async function getRosterdata() {
     const data = await prisma.member.findMany({

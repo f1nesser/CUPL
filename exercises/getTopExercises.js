@@ -1,4 +1,4 @@
-import { prisma } from '../lib/prisma.ts'
+import prisma from '../lib/prisma'
 import weightClasses from '../assets/weightClasses'
 
 export default async function getTopExercises() {

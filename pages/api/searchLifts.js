@@ -1,5 +1,4 @@
-import { prisma } from '../../lib/prisma.ts'
-
+import prisma from '../../lib/prisma'
 export default async function handle(req, res) {
     if (req.method != 'POST') {
         res.status(405).json({ error: 'not a post request' })
