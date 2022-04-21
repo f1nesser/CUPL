@@ -7,7 +7,6 @@ export default async function handler(req, res) {
         return
     }
     const user = JSON.parse(req.body)
-    console.log(user)
     const duplicateUserName = await prisma.member.findUnique({
         where: {
             user_name: user.userName,

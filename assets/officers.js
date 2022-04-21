@@ -10,7 +10,7 @@ const officers = {
             end: 'Present',
         },
         contact: {
-            email: 'hash5771@colorado.edu',
+            email: 'osde2903@colorado.edu',
             phone: '720-485-2504',
         },
         bio: 'Osbaldo credits his discovery of powerlifting to his time in the United States Marine Corps. As his gains started showing, Osbaldo realized his true passion for this sport. In 2019 Osbaldo brought this love to CUPL where he assumed the role of Outreach Coordinator, then Treasurer. Today, Osbaldo serves the club as our president, where he prides himself on leading with values of growth, morals and validation.',
@@ -95,10 +95,7 @@ const officers = {
             start: '2021',
             end: 'Present',
         },
-        contact: {
-            email: 'elja1888@colorado.edu',
-            phone: '617-838-2410',
-        },
+        contact: null,
         qualifications: [
             'B.S. Exercise Science',
             'NSCA Certified Strength & Conditioning Specialist',

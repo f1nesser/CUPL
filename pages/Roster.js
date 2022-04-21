@@ -24,6 +24,7 @@ export default function Roster({ people }) {
                             className={styles.image}
                             layout="fill"
                         />
+                        <div className={styles.overlay} />
                     </div>
                     <div className={styles.titleDiv}>
                         <h1 className={styles.title}>CUPL Roster</h1>

@@ -20,8 +20,6 @@ export default NextAuth({
                 password: { label: 'Password', type: 'password' },
             },
             async authorize(credentials) {
-                console.log(credentials)
-
                 const user = await prisma.member.findFirst({
                     where: {
                         user_name: credentials.username,
@@ -33,7 +31,6 @@ export default NextAuth({
                         role: true,
                     },
                 })
-                console.log(user)
                 if (user) {
                     const passwordMatch = bcrypt.compare(
                         credentials.password,

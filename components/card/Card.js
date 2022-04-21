@@ -23,8 +23,12 @@ export default function Card({ person, crop = 'center' }) {
                         <i>{person.title}</i>
                     </h5>
                     <div className={styles.contact}>
-                        <h6>Email: {person.contact.email}</h6>
-                        <h6>Phone: {person.contact.phone}</h6>
+                        {person.contact ? (
+                            <>
+                                <h6>Email: {person.contact.email}</h6>
+                                <h6>Phone: {person.contact.phone}</h6>
+                            </>
+                        ) : null}
                     </div>
                 </div>
                 <div className={styles.bio}>

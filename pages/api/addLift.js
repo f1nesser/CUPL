@@ -29,7 +29,6 @@ export default async (req, res) => {
                     body_weight: bodyWeight,
                 },
             })
-            console.log(lift)
             lift
                 ? res.status(200).json({ message: 'lift added' })
                 : res.status(500).send({ error: 'failed to add to table' })

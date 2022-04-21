@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .grandContainer {
-    /* display: box; */
     width: 100vw;
     height: 100vh;
-    /* overflow: hidden; */
-    /* background-color: #565a5c; */
 }
 .contentContainer {
     display: flex;
     width: 100%;
+    min-height: 100vh;
 }
 
 .imageAndText {
@@ -17,20 +15,25 @@
 }
 
 .imageContainer {
-    max-height: 100%;
-    /* overflow: hidden; */
-    /* position: relative; */
+    min-height: 100%;
+    position: relative;
 }
 .image {
     object-fit: cover;
     aspect-ratio: 9/16;
 }
+
+.overlay {
+    position: absolute; /* attatches to nearest nearest relative container*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .tableContainer {
-    /* grid-row: 1; */
-    /* position: relative; */
     width: 90%;
     margin-left: 1em;
-    /* margin-top: 1em; */
 }
 
 .titleDiv {
@@ -39,11 +42,10 @@
     left: 0;
     right: 0;
     top: 2px;
-    /* background-color: #565a5c; */
 }
 
 .title {
-    color: black;
+    color: white;
     font-size: 4.5em;
     font-family: 'Bebas Neue', cursive;
     margin-bottom: 0%;

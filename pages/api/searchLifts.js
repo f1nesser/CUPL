@@ -13,7 +13,6 @@ export default async function handle(req, res) {
             user_id: true,
         },
     })
-    console.log('user returned ' + user)
     if (!user) {
         res.status(500).json({ error: 'cant find user' })
         return
@@ -27,6 +26,5 @@ export default async function handle(req, res) {
         res.status(500).json({ error: 'cant find lifts' })
         return
     }
-    console.log('lifts returned ' + lifts)
     res.status(200).json({ message: lifts })
 }

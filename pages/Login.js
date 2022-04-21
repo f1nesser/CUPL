@@ -136,7 +136,6 @@ function SignUpForm() {
             clubRole: e.target['7'].value,
             password: e.target['8'].value,
         }
-        console.log(signUpValues)
         let res = await fetch('/api/signUp', {
             method: 'POST',
             body: JSON.stringify(signUpValues),

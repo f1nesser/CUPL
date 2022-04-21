@@ -5,7 +5,6 @@ export default async function handle(req, res) {
         return
     }
     const { liftId } = JSON.parse(req.body)
-    console.log(liftId)
     try {
         await prisma.lift.delete({
             where: {
