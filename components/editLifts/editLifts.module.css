@@ -34,6 +34,7 @@
 }
 
 .text {
+    font-family: 'Bebas Neue', cursive;
     white-space: nowrap;
     font-size: 400%;
 }
